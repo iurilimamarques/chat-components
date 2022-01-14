@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c616edbc-9c48-42ac-bfc3-c4879ff14f0e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/ApiChatProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/ApiChatProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/configs/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/configs/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/configs/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/configs/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/WebSocketConnectionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/controller/WebSocketConnectionRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/java/com/iurimarques/apichatproject/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-chat-project/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../api-chat-project/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/content/images/login_img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/content/images/signup_img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/chat-app-components/message-chat-app/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/chat-app-components/message-chat-app/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/chat-app-components/select2-chat-app/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/chat-app-components/select2-chat-app/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/face-page/directive/face-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/face-page/directive/face-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/face-page/service/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/face-page/service/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/message-page/directive/message-page.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/message-page/directive/message-page.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/message-page/service/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/message-page/service/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/sign-up/directive/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/sign-up/directive/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/src/sign-up/service/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/src/sign-up/service/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend-chat-project/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend-chat-project/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20NrROjYQZIXGJLwBjzQw7Z9CXx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c616edbc-9c48-42ac-bfc3-c4879ff14f0e" name="Changes" comment="" />
+      <created>1635895881499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635895881499</updated>
+      <workItem from="1635895882846" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
