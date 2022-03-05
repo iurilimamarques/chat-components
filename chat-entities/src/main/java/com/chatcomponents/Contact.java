@@ -1,7 +1,6 @@
 package com.chatcomponents;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -13,19 +12,14 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "contacts")
 public class Contact {
 
     @Id
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "entity_id_seq"
-    )
-    @SequenceGenerator(
-            name = "entity_id_seq",
-            sequenceName = "global_id_sequence",
-            allocationSize = 1
-    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

@@ -1,36 +1,29 @@
 package com.chatcomponents;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
-import javax.sql.rowset.serial.SerialArray;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity
 @Getter
 @Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "messages")
 public class Message implements Serializable {
 
     @Id
-    @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "entity_id_seq"
-    )
-    @SequenceGenerator(
-            name = "entity_id_seq",
-            sequenceName = "global_id_sequence",
-            allocationSize = 1
-    )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String message;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "id_contact", nullable = false)
+    @JoinColumn(name = "id_contact")
     private Contact contact;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

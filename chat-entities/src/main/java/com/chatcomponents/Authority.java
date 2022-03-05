@@ -14,13 +14,7 @@ public class Authority implements GrantedAuthority {
 
     @Id
     @GeneratedValue(
-            strategy = GenerationType.SEQUENCE,
-            generator = "entity_id_seq"
-    )
-    @SequenceGenerator(
-            name = "entity_id_seq",
-            sequenceName = "global_id_sequence",
-            allocationSize = 1
+            strategy = GenerationType.IDENTITY
     )
     private Long id;
 
