@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>chat-entities</artifactId>
-
   <parent>
     <groupId>com.chatcomponents</groupId>
     <artifactId>chat-components</artifactId>
     <version>${revision}</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
+    
+  <artifactId>chat-entities</artifactId>
 
   <dependencies>
     <dependency>
