@@ -10,7 +10,10 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
     
+  <groupId>com.chatcomponents</groupId>
   <artifactId>chat-entities</artifactId>
+  <version>${revision}</version>
+  <name>chat-entities</name>
 
   <dependencies>
     <dependency>
