@@ -12,7 +12,7 @@
     
   <groupId>com.chatcomponents</groupId>
   <artifactId>chat-entities</artifactId>
-  <version>${project.version}</version>
+  <version>${revision}</version>
   <name>chat-entities</name>
   <packaging>jar</packaging>
 
